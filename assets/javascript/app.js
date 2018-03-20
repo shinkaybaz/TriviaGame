@@ -59,7 +59,6 @@ $(document).ready(function () {
 
     $(".start-game").on("click", function () {
         $('.main-container').show();
-        console.log('Starting Trivia!!!');
         $(this).hide();
         countdown();
 
@@ -152,3 +151,7 @@ $(document).ready(function () {
 
 
 });
+
+
+//PSEUDO CODE
+// for some reason the questions wouldnt show on the main game page

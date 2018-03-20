@@ -2,12 +2,6 @@ html, body {
     height: 100%;
  }
  
- body {
-    background-color: whitesmoke;
-    margin:0px;
-    padding: 0px;
- 
- }
  
  .jumbotron {
     border-bottom: 5px solid greenyellow;
@@ -45,21 +39,6 @@ html, body {
     padding: 6em
     
  }
+  
  
- .footer {
-    position: relative;
-    display: flex;
-    bottom: 0%;
-    top: 50%;
-    width: 100%;
-    justify-content: center;
-    box-sizing: border-box;
-    background-origin: padding-box;
-    padding: 2em;
-    border-top: 5px solid rgb(0, 128, 128);
-    height: 60px;
-    margin-top: 20px;
-    background-color: #111111;
-    color: #eeeeee;    
  
- }
