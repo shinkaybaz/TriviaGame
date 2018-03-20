@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+ }
+ 
+ body {
+    background-color: whitesmoke;
+    margin:0px;
+    padding: 0px;
+ 
+ }
+ 
+ .jumbotron {
+    border-bottom: 5px solid greenyellow;
+    background-color: gainsboro;
+    color: black;
+    padding: 0;
+ 
+ }
+ 
+ .start-game {
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .header {
+    display: flex;
+    justify-content: space-around;
+ 
+ }
+ 
+ .timer {
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+ 
+ }
+ 
+ .done-button {
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .main-container {
+    display: none;
+    padding: 6em
+    
+ }
+ 
+ .footer {
+    position: relative;
+    display: flex;
+    bottom: 0%;
+    top: 50%;
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+    background-origin: padding-box;
+    padding: 2em;
+    border-top: 5px solid rgb(0, 128, 128);
+    height: 60px;
+    margin-top: 20px;
+    background-color: #111111;
+    color: #eeeeee;    
+ 
+ }
