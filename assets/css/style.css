@@ -1,14 +1,14 @@
 html, body {
     height: 100%;
+    background-color: beige;
  }
  
  
  .jumbotron {
-    border-bottom: 5px solid greenyellow;
+    border-bottom: 5px solid purple;
     background-color: gainsboro;
     color: black;
-    padding: 0;
- 
+    padding: 10;
  }
  
  .start-game {
@@ -21,24 +21,7 @@ html, body {
     justify-content: space-around;
  
  }
- 
- .timer {
-    display: flex;
-    justify-content: space-around;
-    color: blue;
- 
- }
- 
- .done-button {
-    display: flex;
-    justify-content: space-around;
- }
- 
- .main-container {
-    display: none;
-    padding: 6em
-    
- }
-  
+
+
  
  
