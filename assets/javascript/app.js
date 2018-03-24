@@ -22,8 +22,6 @@ var questions = [{
     answers: ["Madrid", "Barcelona", "Valencia", "Cordoba", "Seville"],
     correctAnswer: "Madrid"
 }, {
-
-}, {
     question: "When did the Cold War end?",
     answers: ["1959", "1999", "1979", "1989", "1969"],
     correctAnswer: "1989"
@@ -60,62 +58,64 @@ var game = {
         for (var i = 0; i < questions.length; i++) {
             $('#subwrapper').append('<h2>' + questions[i].question + '</h2>');
             for (var j = 0; j < questions[i].answers.length; j++) {
+                console.log(questions[i]);
+                
                 $('#subwrapper').append("<input type='radio' name='question-" + i + "' value='" + questions[i].answers[j] + "'>" + questions[i].answers[j])
             }
         }
     },
     done: function (){
-        $.each($('input[name="question-0]":checked'), function(){
+        $.each($('input[name="question-0"]:checked'), function(){
             if($(this).val()==questions[0].correctAnswer){
                 game.correct++;
             } else {
                 game.incorrect++;
             }
         });
-        $.each($('input[name="question-0]":checked'), function(){
-            if($(this).val()==questions[0].correctAnswer){
-                game.correct++;
-            } else {
-                game.incorrect++;
-            }
-        });
-        $.each($('input[name="question-1]":checked'), function(){
+        $.each($('input[name="question-1"]:checked'), function(){
             if($(this).val()==questions[1].correctAnswer){
                 game.correct++;
             } else {
                 game.incorrect++;
             }
         });
-        $.each($('input[name="question-2]":checked'), function(){
+        $.each($('input[name="question-2"]:checked'), function(){
             if($(this).val()==questions[2].correctAnswer){
                 game.correct++;
             } else {
                 game.incorrect++;
             }
         });
-        $.each($('input[name="question-3]":checked'), function(){
+        $.each($('input[name="question-3"]:checked'), function(){
             if($(this).val()==questions[3].correctAnswer){
                 game.correct++;
             } else {
                 game.incorrect++;
             }
         });
-        $.each($('input[name="question-4]":checked'), function(){
+        $.each($('input[name="question-4"]:checked'), function(){
             if($(this).val()==questions[4].correctAnswer){
                 game.correct++;
             } else {
                 game.incorrect++;
             }
         });
-        $.each($('input[name="question-5]":checked'), function(){
+        $.each($('input[name="question-5"]:checked'), function(){
             if($(this).val()==questions[5].correctAnswer){
                 game.correct++;
             } else {
                 game.incorrect++;
             }
         });
-        $.each($('input[name="question-6]":checked'), function(){
+        $.each($('input[name="question-6"]:checked'), function(){
             if($(this).val()==questions[6].correctAnswer){
+                game.correct++;
+            } else {
+                game.incorrect++;
+            }
+        });
+        $.each($('input[name="question-7"]:checked'), function(){
+            if($(this).val()==questions[7].correctAnswer){
                 game.correct++;
             } else {
                 game.incorrect++;
